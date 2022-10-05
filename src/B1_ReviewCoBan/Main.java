@@ -9,5 +9,7 @@ package B1_ReviewCoBan;
  * @author hangnt
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 }
