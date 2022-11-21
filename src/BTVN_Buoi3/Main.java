@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        ArrayList<SinhVien> dssv=new ArrayList<>();
+       ArrayList<SinhVien> dssv=new ArrayList<>();
        ArrayList<GiangVien> dsgv=new ArrayList<>();
        //Tạo ra đối tượng sinh viên với đầy đủ tham số truyền vào
        SinhVien sv1=new SinhVien("SV01","Nguyễn Văn A", 18, 9);
