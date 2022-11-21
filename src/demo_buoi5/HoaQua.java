@@ -72,9 +72,4 @@ public class HoaQua {
         NguonGoc = sc.nextLine();
     }
 
-    @Override
-    public String toString() {
-        return "HoaQua{" + "MaHq=" + MaHq + ", TenHq=" + TenHq + ", DonGia=" + DonGia + ", NguonGoc=" + NguonGoc + '}';
     }
-    
-}
