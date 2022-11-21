@@ -7,7 +7,7 @@ public class HoaQua {
     private String MaHq;
     private String TenHq;
     private double DonGia;
-     String NguonGoc;
+    private String NguonGoc;
 
     public HoaQua() {
     }
@@ -71,5 +71,12 @@ public class HoaQua {
         System.out.print("Mời bạn nhập nguồn gốc : ");
         NguonGoc = sc.nextLine();
     }
+
+    @Override
+    public String toString() {
+        return super.toString(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
+    
+    
     
 }
