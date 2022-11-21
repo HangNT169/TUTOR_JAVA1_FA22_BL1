@@ -7,7 +7,7 @@ public class HoaQua {
     private String MaHq;
     private String TenHq;
     private double DonGia;
-    private String NguonGoc;
+     String NguonGoc;
 
     public HoaQua() {
     }
